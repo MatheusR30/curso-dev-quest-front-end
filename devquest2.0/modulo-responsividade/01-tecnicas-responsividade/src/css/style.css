@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 16px;
+}
+
+main {
+  /* Valores RESPONSIVOS 
+  min-width: 320px;
+  max-width: 1024px; */
+  width: 90%;
+  /* % Valores RELATIVOS */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: aqua;
+}
+
+ul {
+  font-size: 60px;
+}
+
+li {
+  font-size: 1em;
+}
