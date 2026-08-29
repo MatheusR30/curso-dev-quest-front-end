@@ -1,0 +1,21 @@
+.container div {
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  background-color: blueviolet;
+}
+
+.container {
+  display: grid;
+
+  /* grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px); */
+
+  /* O primeiro valor são as LINHAS */
+  grid-template: repeat(1, 150px) / repeat(3, auto);
+
+  /* row-gap: 20px;
+  column-gap: 20px; */
+
+  gap: 20px 40px;
+}
