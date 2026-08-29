@@ -1,0 +1,49 @@
+body {
+  font-family: var(--fonte-principal);
+  color: #333333;
+}
+
+main {
+  padding: 2.5rem;
+  max-width: 1360px;
+  margin: 0 auto;
+  /* O margin 0 auto consegue centralizar horizontalmente, mas só se tiver uma medida fixa */
+}
+
+@media (max-width: 1280px) {
+  main {
+    padding: 0.625rem;
+  }
+}
+
+.btn {
+  font-size: 1.25rem;
+  width: 161px;
+  height: 48px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 0.625rem 1.25rem;
+  transition:
+    background-color 0.3s,
+    border 0.3s;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  margin-right: 1rem;
+  line-height: 23px;
+}
+
+.btn-filled {
+  background-color: #ffffff;
+  color: #6429a3;
+}
+
+.btn:hover {
+  background-color: #6429a3;
+  color: #ffffff;
+  border-color: #6429a3;
+}

@@ -1,0 +1,70 @@
+.categories-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  /* Quando estou usando o WRAP, os 4 tenis estao quebrando e ficando 1 na linha de baixo, o tamanho fixo de 317px nao cabem os 4. 
+    Por enquanto vou deixar sem pra caber os 4 em uma linha  */
+
+  justify-content: center;
+  gap: 30px;
+}
+
+.category-card {
+  position: relative;
+  /* width: 317px; Esta quebrando a linha mesmo com a janela aberta */
+  min-width: 270px;
+  max-width: 317px;
+
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+  /* overflow: hidden; Serve para manter o conteúdo dentro do card, e esconder o que sai dele*/
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  /* Um atalho para top: 0; left: 0; right: 0; bottom: 0; */
+
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  /* O z-index controla a ordem de sobreposição dos elementos */
+}
+
+.category-name {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* usando o Left,Top e o Transforme dessa forma, é uma tática de centralizar um elemento
+exatamente no centro sem que usemos o Display:flex*/
+  z-index: 2;
+  text-align: center;
+}
+
+.casual {
+  background: url(../../images/products/casual.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.esporte {
+  background: url(../../images/products/esporte.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.moderno {
+  background: url(../../images/products/moderno.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.futurista {
+  background: url(../../images/products/futurista.jpg) no-repeat center;
+  background-size: cover;
+}
+
+@media (max-width: 560px) {
+  .category-card {
+    width: 100%;
+  }
+}
