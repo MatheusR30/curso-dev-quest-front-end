@@ -1,0 +1,6 @@
+// começa como um objeto
+{
+  "compilerOptions": {
+    "noImplicitAny": true
+  }
+}
