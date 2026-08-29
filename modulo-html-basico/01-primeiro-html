@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nome="discription" content="Minha primeira pagina só com HTML">
+    <title>Minha primeira pagina HTML</title>
+</head>
+<body>
+    <h1>Minha primeira pagina HTML</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt rem magnam nesciunt a molestiae quasi velit sed praesentium? Quisquam neque harum ex itaque, perspiciatis dolorem ab temporibus quo tenetur.</p>    
+</body>
+</html>
