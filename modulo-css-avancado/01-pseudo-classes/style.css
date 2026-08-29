@@ -1,0 +1,35 @@
+/* seletor:pseudo-classe {
+    propriedade: valor;
+} */
+
+ p:first-child {
+    color: aquamarine;
+}
+
+p:last-child {
+    color:brown
+}
+
+/* Pega todos os elementos que nao o que seja a classe PADRAO */
+p:not(.padrao) {
+    color: yellow;
+}
+
+/* Seleciona elementos apartir da posicao deles, apartir de um grupo de elementos irmaos  */
+/* Elementos "odd" IMPARES */
+/* Elementos "even" pares */
+/* Elementos "3n" pega os TERCEIROS ELEMENOS */
+
+li:nth-child(n+2):nth-child(-n+5) {
+    color:red ; 
+}
+
+/* Seleciona do ULTIMO para o primeiro */
+li:nth-last-child(1) {
+    color:cadetblue
+}
+
+/* Seleciona o que nao tem irmao */
+p:only-child {
+    color: red;
+}
