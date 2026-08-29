@@ -1,0 +1,27 @@
+:root {
+  --cor-padrao:green;
+  --tamanho-de-fonte-padrao: 20px;
+}
+
+h2 {
+    --cor-padrao1:yellow;
+
+  color: var(--cor-padrao,green);
+  font-size: var(--tamanho-de-fonte-padrao, 20px);
+  background-color: var(--cor-padrao1);
+}
+
+h3 {
+  color: var(--cor-padrao, green);
+  font-size: var(--tamanho-de-fonte-padrao, 20px);
+}
+
+p {
+  color: var(--cor-padrao, green);
+  font-size: var(--tamanho-de-fonte-padrao, 20px);
+}
+
+span {
+  color: var(--cor-padrao, green);
+  font-size: var(--tamanho-de-fonte-padrao, 20px);
+}
