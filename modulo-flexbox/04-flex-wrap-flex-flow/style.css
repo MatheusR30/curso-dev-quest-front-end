@@ -1,0 +1,15 @@
+.nowrap {
+    display: flex;
+}
+
+.wrap {
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+}
+
+.wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
