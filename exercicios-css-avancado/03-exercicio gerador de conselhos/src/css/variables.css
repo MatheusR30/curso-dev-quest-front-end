@@ -1,0 +1,8 @@
+:root {
+  --primary-one: hsl(193, 38%, 86%);
+  --primary-two: hsl(150, 100%, 66%);
+
+  --neutral-one: hsl(217, 19%, 38%);
+  --neutral-two: hsl(217, 19%, 24%);
+  --neutral-tree: hsl(218, 23%, 16%);
+}

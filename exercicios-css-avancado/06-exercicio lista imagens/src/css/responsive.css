@@ -1,0 +1,21 @@
+@media (max-width: 650px) {
+  .article {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 20px;
+  }
+
+  .article .image-container img {
+    margin: 0.1px;
+  }
+
+  p {
+    font-size: 17px;
+    font-weight: 300;
+
+    position: absolute;
+    top: 70%;
+    left: 5%;
+  }
+}

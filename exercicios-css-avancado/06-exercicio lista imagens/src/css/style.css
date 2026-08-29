@@ -1,0 +1,33 @@
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+}
+
+.article .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.article .image-container img {
+  height: 335px;
+  margin: 128px 5px;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 300;
+
+  position: absolute;
+  top: 60%;
+  left: 8%;
+  color: #fff;
+}
+
+span {
+  font-size: 30px;
+  font-weight: 700;
+}
