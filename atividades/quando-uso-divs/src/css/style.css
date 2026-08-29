@@ -1,0 +1,97 @@
+.container {
+  font-family: "Public Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.container .header {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  font-weight: 600;
+}
+
+.container .logo {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 25px;
+}
+
+.container .menu-container {
+  display: flex;
+}
+
+.container .menu-container .menu {
+  display: flex;
+  align-items: center;
+
+  transition: color 0.3s ease, font-size 0.3s ease;
+  gap: 20px;
+  padding: 10px;
+}
+
+.container .menu-container .menu .home:hover {
+  cursor: pointer;
+  background-color: rgb(78, 248, 78);
+  padding: 5px 20px;
+}
+
+.container .menu-container .menu .sobre:hover {
+  cursor: pointer;
+  background-color: rgb(78, 248, 78);
+  padding: 5px 20px;
+}
+
+.container .menu-container .menu .contato:hover {
+  cursor: pointer;
+  background-color: rgb(78, 248, 78);
+  padding: 5px 20px;
+}
+
+.container .menu-container .menu .blog:hover {
+  cursor: pointer;
+  background-color: rgb(78, 248, 78);
+  padding: 5px 20px;
+}
+
+.container .menu-container .menu .carreira:hover {
+  cursor: pointer;
+  background-color: rgb(78, 248, 78);
+  padding: 5px 20px;
+}
+
+.container .btn {
+  background-color: rgb(78, 248, 78);
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+@media (max-width: 550px) {
+  .container {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .menu-container {
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .menu {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
