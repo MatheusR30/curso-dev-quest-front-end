@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Responsivo</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Título Principal do Site</h1>
+      <p>
+        Este paragrafo Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Dignissimos distinctio at fuga dolore molestiae earum facilis nulla hic,
+        facere sint officia! Omnis nulla alias itaque error sunt ab fugit.
+        Laboriosam!
+      </p>
+
+      <picture>
+        <!-- No SOURCE estou dizendo, usar essa imagem MOBILE ate o tamanho de 768px, apos esse tamanho usar a imagem do img -->
+        <source
+          media="(max-width: 768px )"
+          srcset="src/images/batman-mobile.jpg"
+        />
+        <img src="src/images/batman-desktop.jpg" alt="Batman" />
+      </picture>
+
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+      </ul>
+    </main>
+  </body>
+</html>
