@@ -1,0 +1,12 @@
+.container div {
+  border: 1px solid black;
+  background-color: chocolate;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 150px 150px;
+  gap: 20px;
+}
